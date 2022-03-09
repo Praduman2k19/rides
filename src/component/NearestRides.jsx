@@ -106,7 +106,7 @@ const NearestRides = () => {
               </DialogActions>
             </Dialog>
           </div>
-          <div>{city} {state}
+          <div>
             {data&&data.map((item) => (<Card item={item} />))}
           </div>
       </div>
